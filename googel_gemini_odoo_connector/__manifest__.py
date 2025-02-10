@@ -10,6 +10,7 @@
 
     'author': "Dhrushil Butani",
     'maintainer': 'Dhrushil Butani',
+    'website': "https://www.yourcompany.com",
 
    'category': 'Extra Tools',
     'version': '18.0.1.0',
@@ -19,6 +20,7 @@
         'data/gemini_data.xml',
         'views/res_config_setting_view.xml',
         ],
+    'images': ['static/description/gemini.png'],
     'installable': True,
     'application': True,
     'auto_install': False,
