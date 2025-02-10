@@ -1,0 +1,28 @@
+<odoo>
+    <record id="res_config_settings_gemini_form" model="ir.ui.view">
+        <field name="name">Res Config Setting: Gemini</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="base_setup.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@id='invite_users']" position="after">
+                <div id="invite_users">
+                    <block title="Gemini" name="gemini_setting_container">
+                        <setting string="Gemini Configration">
+                            <div class="content-group">
+                                <div class="row mt16">
+                                    <label for="gemini_model" string="Gemini Model" class="col-lg-3"/>
+                                    <field name="gemini_model"/>
+                                </div>
+                                <div class="row mt16">
+                                    <label for="gemini_api_key" string="Gemini Api Key" class="col-lg-3"/>
+                                    <field name="gemini_api_key"/>
+                                </div>
+                            </div>
+                        </setting>
+                    </block>
+                </div>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>
