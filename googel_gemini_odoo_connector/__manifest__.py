@@ -21,6 +21,7 @@
         'views/res_config_setting_view.xml',
         ],
     'images': ['static/description/gemini.png'],
+
     'installable': True,
     'application': True,
     'auto_install': False,
