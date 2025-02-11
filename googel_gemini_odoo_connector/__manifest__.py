@@ -10,7 +10,7 @@
 
     'author': "Dhrushil Butani",
     'maintainer': 'Dhrushil Butani',
-    'website': "https://www.yourcompany.com",
+    
 
    'category': 'Extra Tools',
     'version': '18.0.1.0',
